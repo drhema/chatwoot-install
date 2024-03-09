@@ -4,7 +4,7 @@ This guide provides step-by-step instructions for installing Chatwoot on your se
 
 ## Prerequisites
 
-- A server running a Linux distribution (Ubuntu recommended).
+- A server running a Linux distribution (Ubuntu 20 is MUST not 22 or 23).
 - `wget` installed on your server.
 - Root access or a user with sudo privileges.
 
