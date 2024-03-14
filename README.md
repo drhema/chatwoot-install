@@ -13,12 +13,16 @@ This guide provides step-by-step instructions for installing Chatwoot on your se
 1. **Download the Installation Script**
 
    First, download the Chatwoot installation script using `wget`.
+      ```bash
+sudo apt update && sudo apt upgrade
+   ```
+
 
    ```bash
    wget https://get.chatwoot.app/linux/install.sh
    ```
 
-2. **Make the Script Executable**
+3. **Make the Script Executable**
 
    Change the script's permissions to make it executable.
 
@@ -26,7 +30,7 @@ This guide provides step-by-step instructions for installing Chatwoot on your se
    chmod +x install.sh
    ```
 
-3. **Run the Installation Script**
+4. **Run the Installation Script**
 
    Start the installation process by executing the script.
 
@@ -36,7 +40,7 @@ This guide provides step-by-step instructions for installing Chatwoot on your se
 
    During the installation process, you'll be prompted to make several choices. Select **"yes"** for all prompts to continue with the default options.
 
-4. **Set Up Your Domain**
+5. **Set Up Your Domain**
 
    When asked, enter your desired subdomain (e.g., `chat.domain.com`). This will be used to access your Chatwoot installation.
 
