@@ -44,6 +44,15 @@ then
 
    When asked, enter your desired subdomain (e.g., `chat.domain.com`). This will be used to access your Chatwoot installation.
 
+   If an error in installation
+```bash
+ufw allow 3000/tcp
+ufw allow 8080/tcp
+ufw allow 443/tcp
+ufw allow 80/tcp
+ufw allow 6379/tcp
+ufw allow 5432/tcp
+```
 ## Post-Installation Configuration
 
 After the installation, a few additional steps are required to finalize the setup.
