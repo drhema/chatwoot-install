@@ -14,7 +14,7 @@ This guide provides step-by-step instructions for installing Chatwoot on your se
 
    First, download the Chatwoot installation script using `wget`.
 ```bash
-sudo apt update && sudo apt upgrade
+sudo apt update
 ```
 then
 
